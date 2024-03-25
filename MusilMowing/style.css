@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation */
+/* nav a {
+    color: white;
+    background-color: rgb(32, 207, 32);
+    padding: 5px;
+    font-size: 15px;
+    border: solid rgb(107, 115, 128);
+    border-radius: 3rem;
+    text-decoration: none;
+
+} */
+
+#contact {
+    margin: auto;
+}
+
+#about {
+    margin: auto;
+
+}
+
+nav div {
+    text-align: center;
+}
+
+/* Header */
+header a {
+    color: white;
+    font-size: 15px;
+
+    border-radius: 3rem;
+    text-decoration: none;
+
+}
+
+#contact,
+#about,
+#home {
+    background-color: rgb(32, 207, 32);
+    padding: 5px;
+    padding-bottom: 5px;
+    border: solid white;
+}
+
+.fa-brands {
+    color: #2cfc5d;
+    font-size: 2em;
+    padding-right: 5px;
+
+}
+
+header {
+    padding: 6px;
+    background-color: rgb(107, 115, 128);
+}
+
+header div {
+    text-align: center;
+
+}
+
+header img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/* section 1*/
+section {
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 1rem;
+    background-color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 6px 6px 6px;
+    border-color: rgba(66, 66, 66);
+    min-width: 300px;
+    min-height: auto;
+}
+
+#homeSection {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    float: left;
+    box-shadow: 0;
+}
+
+section img {
+    max-width: 40%;
+    height: auto;
+    box-shadow: 6px 6px 6px rgb(66, 66, 66);
+    border-radius: 2rem;
+
+}
+
+section p {
+    padding-bottom: 50px;
+    perspective: 500px;
+    transform: rotateY(30deg) translateZ(20px);
+
+}
+
+
+
+
+/* form */
+form {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    left: 18%;
+    width: 75%;
+
+}
+
+.submit {
+    width: initial;
+    position: initial;
+}
